@@ -4,6 +4,8 @@ type cases = [
   Expect<Equal<DeepReadonly<X>, Expected>>,
 ]
 
+type test = DeepReadonly<X>
+
 type X = {
   a: () => 22
   b: string
