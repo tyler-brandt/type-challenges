@@ -12,6 +12,8 @@ type cases = [
   Expect<Alike<typeof result, Expected>>
 ]
 
+type x = typeof result
+
 type Expected = {
   foo: number
   bar: {
